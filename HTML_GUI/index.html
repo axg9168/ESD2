@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
+    <title>NightHawk</title>
+</head>
+
+<body>
+    <script src="js/main.js"></script>
+    
+    <header>
+        <img src="nighthawk_icon.png" alt="NightHawk Icon" id="nighthawk_icon">
+        <h1 id="titleFont">NightHawk</h1>
+    </header>
+    <p id="bottomBorderPls"></p>
+    
+    <section class="eight columns">
+        <img src="{{ url_for('video_feed') }}" alt="Video Streaming Demonstration" id="videoFeed">
+        <img src="https://dhggywfvre0o8.cloudfront.net/app/uploads/2017/11/22153252/Typeform-Blog-BlackFriday-Cover-AskAwesomely.jpg" alt="help" id="helpmepls">
+        
+        <!--<div class="buttons">
+            <button type="button" id="enableBtn" class="userFriendly">Enable</button>
+            <button type="button" id="resetBtn" class="userFriendly">Reset</button>
+            <button type="button" id="calibrateBtn" class="userFriendly">Calibrate</button>
+            <button type="button" id="cameraBtn" class="userFriendly">Turn Camera On</button>
+            <button type="button" id="detectBtn" class="userFriendly">Detect Tennis Ball</button>
+            <p class="btnDesc" id="enable">Enables the drone's motors</p>
+            <p class="btnDesc" id="reset">Resets all functions</p>
+            <p class="btnDesc" id="calibrate">Zeroes the motors</p>
+        </div>-->
+    </section>
+</body>
+</html>

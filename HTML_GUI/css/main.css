@@ -1,0 +1,100 @@
+body{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #393939;
+    width: 100%;
+    font-family: 'Iceland', cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    margin:0;
+    margin-top: -200px;
+    color: #00BB99;
+    text-shadow: -3px 0 #3C5AA6, 0 3px #3C5AA6, 3px 0 #3C5AA6, 0 -3px #3C5AA6;
+    text-align:center;
+    font-size:100px;
+}
+header a{
+    color: white;
+}
+#nighthawk_icon{
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+}
+#videoFeed{
+    color: #DDDDDD;
+}
+#helpmepls, #videoFeed{
+    /*border: 20px solid aqua;*/
+    box-shadow: 1px 1px 100px #00BB99;
+}
+
+#bottomBorderPls{
+    border-top: 1px solid #000000;
+    width: 100%;
+}
+
+section{
+    font-family: 'Iceland', sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+}
+section p{
+    font-size: 20px;
+}
+
+#extras{
+    font-family: 'Iceland', sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+h2{
+    color: white;
+    font-family: 'Iceland', sans-serif;
+}
+
+button{
+  display : inline-block;
+  cursor : pointer;
+  border-style : solid;
+  border-width : 1px;
+  border-radius : 50px;
+  padding : 10px 18px;
+  box-shadow : 0 1px 4px rgba(0,0,0,.6);
+  color : #00AA88;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  font-family : 'Iceland', sans-serif;
+  text-decoration : none;
+  width: auto;
+  height: auto;
+}
+
+button.userFriendly{
+    border-color: #000000;
+    background-color: #393939;
+    background-size: 100% 100%;
+}
+
+button:hover{
+    background-color: #393939;
+}
+
+button:active{
+    background-color: #393939;
+    box-shadow : 0 0 6px rgba(0,0,0,.6);
+}
+
+button:focus {outline:0;}
